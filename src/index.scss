@@ -1,4 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+ nav {
+    position: sticky;
+    ul {
+        display: flex;
+        list-style-type: none;
+        
+        li {
+            margin-right: 2%;
+        }
+    }
+}
 
 
 @media screen and (max-width: 425px){
