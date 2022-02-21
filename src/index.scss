@@ -10,8 +10,13 @@
         list-style-type: none;
         justify-content: end;
         align-items: center;
+
         li {
             margin-right: 2%;
+        }
+
+        a {
+            text-decoration: none;
         }
     }
 }
