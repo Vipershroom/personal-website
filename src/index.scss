@@ -31,20 +31,20 @@ nav {
 }
 
 .header {
-    margin-top: 50px;
     display: grid;
     place-items: center;
-    height: 80%;
+    height: 50%;
+    width: 100%;
     border: 1px black solid;
-    background-image: url(../images/wallpaper.jpg);
+    background-image: url(../images/905286.jpg);
     background-repeat: no-repeat;
     background-size: cover;   
+    
 }
 
 #circle-image {
     border-radius: 50%;
-    width: 10%;
-    filter: blur(0);
+    width: 15%;
 }
 
 @media screen and (max-width: 768px){
@@ -62,7 +62,6 @@ nav {
             border-radius: 50%;
             margin-top: 20px;
             width: 100px;
-            filter: blur(0);
             
         }
     }
