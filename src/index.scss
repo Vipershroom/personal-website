@@ -71,6 +71,10 @@ nav {
     align-items: center;
     color: white;
     padding-top: 40px;
+
+    .article {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 780px){
