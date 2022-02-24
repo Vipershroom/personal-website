@@ -1,5 +1,5 @@
 let timeEl = document.getElementById('time-el')
-let darkMode = document.getElementById('dark-mode')
+let darkMode = document.getElementById('darkmode')
 
 
 setInterval(() => {

@@ -49,6 +49,7 @@ nav .navbar li a {
   place-items: center;
   height: 100%;
   width: 100%;
+  color: #181818;
   border: 1px black solid;
 }
 
