@@ -11,7 +11,6 @@ html, body {
 }
 
 nav {
-    position: sticky;
     .navbar {
         display: flex;
         list-style-type: none;
@@ -37,7 +36,7 @@ nav {
 .background {
     height: 80%;
     width: 100%;
-    background-image: url("images/wallpaper2.jpg");
+    background-image: url(images/wallpaper2.jpg);
     background-repeat: no-repeat;
     background-size: cover;   
     background-attachment: fixed;
@@ -74,6 +73,18 @@ nav {
 
     .article {
         text-align: center;
+
+        p {
+            font-size: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        a {
+            color: #1eaedb;
+        }
     }
 }
 

@@ -10,9 +10,6 @@ html, body {
   background-color: #181818;
 }
 
-nav {
-  position: sticky;
-}
 nav .navbar {
   display: flex;
   list-style-type: none;
@@ -34,7 +31,7 @@ nav .navbar li a {
 .background {
   height: 80%;
   width: 100%;
-  background-image: url("images/wallpaper2.jpg");
+  background-image: url(images/wallpaper2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -71,6 +68,15 @@ nav .navbar li a {
 }
 .article-container .article {
   text-align: center;
+}
+.article-container .article p {
+  font-size: 20px;
+}
+.article-container .article ul {
+  list-style-type: none;
+}
+.article-container .article a {
+  color: #1eaedb;
 }
 
 @media screen and (max-width: 780px) {
